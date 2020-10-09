@@ -379,6 +379,7 @@ display: none;
 	.main-mobile-menu{
 		position: fixed;
 		width: 70%;
+		height: 100vh;
 		display: block;
 		margin: 80px auto 0px auto;
 		background: #fff;
@@ -388,7 +389,7 @@ display: none;
 		transition: all .5s;
 		margin-top: 0px;
 		padding: 20px 0px;
-		z-index: 2;
+		z-index: 100;
 		box-shadow: 2px 2px 20px 5px rgba(0, 0, 0, 0.1)
 	}
 	.main-mobile-menu li{
