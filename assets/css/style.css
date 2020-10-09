@@ -285,6 +285,7 @@ body{
 		left: 0px;
 	}
 	.space-image span, .category-space span{
+		font-size: 12px;
 		left: 10px;
 		bottom: 10px;
 		background: #fff;
@@ -299,7 +300,9 @@ body{
 	
 }
 @media(max-width: 600px){
-	
+	.popular-product-image p{
+		font-size: 12px;
+	}
 }
 @media(max-width: 576px){
 	
