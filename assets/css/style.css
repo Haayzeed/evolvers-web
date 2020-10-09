@@ -90,7 +90,7 @@ body{
 	left: -80px;
 }
 .carousel-indicators .active {
-  background-color: #F4811F;
+	background-color: #F4811F;
 }
 /*===================================shop by space===================================*/
 .shop-by-space, .category-space, .popular-product{
@@ -198,6 +198,48 @@ body{
 	font-size: 13px;
 	color: #fff;
 }
+
+/*.menu-holder{
+	width: 100%;
+	height: 50px;
+	padding-top: 30px;
+}
+.menu-holder .logo{
+	padding-top: 10px;
+	float: left;
+}
+.menu-holder .main-menu{
+	list-style: none;
+	float: left;
+	margin-left: 15%;
+	line-height: 45px;
+}
+.main-menu li{
+	display: inline-block;
+}
+.main-menu li a{
+	text-transform: capitalize;
+	font-size: 14px;
+	color: hsl(229, 31%, 21%);
+	padding: 10px 20px;
+	font-weight: 500;
+}
+.main-menu li a:hover{
+	color: hsl(0, 94%, 66%);
+	text-decoration: none;
+}*/
+/*#check, #close{
+	display: none;
+}
+.checkbtn, .closebtn {
+	font-size: 30px;
+	color: white;
+	float: right;
+	line-height: 45px;
+	margin-right: 10px;
+	cursor: pointer;
+	display: none;
+}*/
 /*====================================Media Query====================================*/
 @media(max-width: 1920px){
 	
@@ -265,9 +307,9 @@ body{
 		height: 280px !important;
 	}
 	.footer-three ul li a img{
-	width: 15px;
-	height: 15px;
-}
+		width: 15px;
+		height: 15px;
+	}
 }
 @media(max-width: 858px){
 	
@@ -296,6 +338,105 @@ body{
 	
 }
 @media(max-width: 600px){
+.menu-holder{
+	width: 100%;
+	height: 100px;
+	padding-top: 20px;
+}
+.menu-holder .logo{
+	/*padding-top: 10px;*/
+	/*float: left;*/
+	border: 2px solid red;
+	/*display: block;*/
+		/*margin: 0 auto;*/
+		margin-top: -50px;
+		width: 20%;
+}
+.menu-holder .main-menu{
+	list-style: none;
+	float: left;
+	margin-left: 15%;
+	line-height: 45px;
+}
+.main-menu li{
+	display: inline-block;
+}
+.main-menu li a{
+	text-transform: capitalize;
+	font-size: 14px;
+	color: hsl(229, 31%, 21%);
+	padding: 10px 20px;
+	font-weight: 500;
+}
+.main-menu li a:hover{
+	color: hsl(0, 94%, 66%);
+	text-decoration: none;
+}
+#check, #close{
+	display: none;
+}
+.checkbtn, .closebtn {
+	font-size: 30px;
+	color: white;
+	/*float: right;*/
+	line-height: 45px;
+	margin-right: 10px;
+	cursor: pointer;
+	display: none;
+}
+
+
+
+	.right-btn, .closebtn, .icon-close{
+		display: none;
+	}
+	.checkbtn {
+		display: block;
+	}
+	
+	.logo{
+		margin-top: 0px;
+		display: block;
+		margin: 0 auto;
+
+	}
+	.main-menu{
+		position: fixed;
+		width: 85%;
+		display: block;
+		margin: 80px auto 0px auto;
+		background: hsl(0, 0%, 98%);
+		left: -100%;
+		text-align: center;
+		transition: all .5s;
+		margin-top: 80px;
+		padding: 20px 0px;
+		z-index: 2;
+	}
+	.main-menu li{
+		color: black;
+		display: block !important;
+		margin: 10px;
+	}
+	.main-menu li a{
+		color: #000;
+		font-size: 18px;
+		font-weight: bold;
+	}
+	#check:checked ~ .main-menu{
+		left: 5px;
+	}
+
+
+
+
+
+
+
+
+
+
+
 	.header-contact p{
 		font-size: 12px;
 		text-align: center;
