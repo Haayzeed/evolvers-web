@@ -126,7 +126,7 @@
 						<input type="checkbox" name="checkbox" id="check">
 						<label for="check" class="checkbtn">
 							<img src="assets/images/icon-hamburger.svg" alt="hamburger icon" class="icon-hamburger">
-							<img src="assets/images/icon-close.svg" alt="hamburger icon" class="icon-close">
+							
 						</label>
 						<div class="logo">
 							<a href="index.html">
@@ -134,7 +134,7 @@
 							</a>
 						</div>
 						<ul class="main-mobile-menu">
-							<li><a href="">LIGHTING Explorer</a></li>
+							<li><a href=""><img src="assets/images/mobile-logo.svg" alt="hamburger icon" class="icon-hamburger"></a></li><li><a href="">LIGHTING Explorer</a></li>
 							<li><a href="">OFFICE</a></li>
 							<li><a href="">HOTEL</a></li>
 							<li><a href="">Home</a></li>
@@ -143,6 +143,10 @@
 							<li><a href="">SWITCHES & SOCKETS</a></li>
 							<li><a href="">CEILING LAMP</a></li>
 							<li><a href="">WALL LAMP</a></li>
+							<input type="checkbox" name="checkbox" id="close" style="display: block">
+							<label class="closebtn">
+							<img src="assets/images/icon-close.svg" alt="hamburger icon" class="icon-close">
+							</label>
 						</ul>
 						<div class="mobile-cart">
 							<a href="">
@@ -497,6 +501,9 @@
 				}
 			}
 		})
+		// $('.icon-close').click(function(){
+		// 	$('.main-mobile-menu').css({'left': '-120%'})
+		// })
 	</script>
 </body>
 </html>
