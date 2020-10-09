@@ -296,6 +296,10 @@ body{
 	
 }
 @media(max-width: 600px){
+	.header-contact p{
+		font-size: 12px;
+		text-align: center;
+	}
 	.space-image span, .category-space span{
 		font-size: 12px;
 		left: 10px;
@@ -310,9 +314,15 @@ body{
 	.popular-product-image p{
 		font-size: 13px;
 	}
+	.shop-by-space p{
+		font-size: 13px;
+	}
 	.small-price{
 		font-size: 12px;
 		padding-left: 5px !important;
+	}
+	.newsletter button{
+		width: 100%;
 	}
 }
 @media(max-width: 576px){
