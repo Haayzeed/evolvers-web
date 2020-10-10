@@ -428,6 +428,10 @@ body{
 	.newsletter button{
 		width: 100%;
 	}
+	.carousel-indicators{
+	justify-content: center;
+	left: 0;
+}
 }
 @media(max-width: 576px){
 
