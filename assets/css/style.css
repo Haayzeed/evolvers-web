@@ -356,20 +356,11 @@ body{
 	.main-mobile-menu li{
 		color: black;
 		display: block !important;
-		/*border: 2px solid red;*/
-		/*margin: 5px 10px;*/	
 	}
 	.main-mobile-menu li a{
 		color: #000;
 		font-size: 13px;
 		text-transform: uppercase;
-		/*font-weight: bold;*/
-	}
-	#check:checked ~ .main-mobile-menu{
-		left: -15%;
-	}
-	.icon-close:click ~ .main-mobile-menu{
-		left: -120%;
 	}
 }
 @media(max-width: 858px){
