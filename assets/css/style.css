@@ -198,8 +198,18 @@ body{
 	color: #fff;
 }
 /*====================================Media Query====================================*/
-@media(max-width: 1920px){
-
+@media(min-width: 1919px){
+	.carousel-caption{
+		background: #fff;
+		width: 30%;
+		height: 320px;
+		top: 0;
+		left: 300px;
+		transform: translateY(50%);
+		color: #000000;
+		padding: 3em;
+		text-align: left;
+	}
 }
 @media(max-width: 1680px){
 	.carousel-caption{
